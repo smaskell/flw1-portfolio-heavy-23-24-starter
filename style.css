@@ -10,6 +10,9 @@
 
 /* Adjust the positioning of your page.  */
 
+:root {
+  --red: #fd3f3f;
+}
 
 * {
   box-sizing: border-box;
@@ -22,7 +25,7 @@ body {
 }
 
 .heading {
-  background-color: #fafd3a;
+  background-color: var(--red);
   color: #efeff2;
   padding: 1em;
 }
@@ -67,7 +70,7 @@ h1 {
 }
 
 .text a {
-  color: #fafd3a;
+  color: var(--red);
   text-decoration: none;
 }
 
@@ -91,7 +94,7 @@ h1 {
 }
 
 nav {
-  background-color: #fafd3a;
+  background-color: var(--red);
   padding: 10px;
   border-radius: 10px;
   display: flex;
@@ -99,7 +102,7 @@ nav {
 }
 
 footer {
-  background-color: #fafd3a;
+  background-color: var(--red);
   padding: 20px;
   color: black;
   text-align: center;
