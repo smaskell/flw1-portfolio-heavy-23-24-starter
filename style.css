@@ -42,15 +42,46 @@ h1 {
   margin: 20px;
   padding: 10px;
   color: white;
+  border-radius: 4px;
 }
 
+#hi {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+#starling {
+  width: 50%;
+  aspect-ratio: 1/1;
+  border-radius: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text {
+  text-justify: inter-word;
+  font-size: 20px;
+  line-height: 30px;
+  padding-right: 20px;
+}
+
+.text a {
+  color: #fafd3a;
+  text-decoration: none;
+}
+
+.text a:hover {
+  text-decoration: underline;
+  font-size: 105%;
+}
 
 .btn {
   border: none;
   outline: none;
   padding: 12px 16px;
   border-radius: 4px;
-  background-color: black;
+  background-color: #2f3027;
   color: white;
   cursor: pointer;
 }
